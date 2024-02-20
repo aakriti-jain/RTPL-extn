@@ -17,7 +17,7 @@ clone this scratch directory in your local scratch directory.
 run the following from your ns3 root directory
 
 ```bash
-./waf --run RT_lora
+./waf --run RTPL_extn
 ```
 
 You can set the simulation parameters (simulationtime, number of channels, number of nodes etc) via cmd arguments
@@ -26,7 +26,7 @@ You can set the simulation parameters (simulationtime, number of channels, numbe
 to see avaialble cmd parameters execute: 
 
 ```bash
-./waf --run "RT_lora --help" 
+./waf --run "RTPL_extn --help" 
 ```
 
 
